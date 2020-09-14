@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit"
+             mc:Ignorable="d"
+             x:Class="App.StartPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name ="label" VerticalOptions = "Center" HorizontalOptions = "Center" FontSize = "40" TextColor = "Black"  Text = "Health check" Margin = "0, 250, 0, 0" />
+            <Button WidthRequest = "200" HeightRequest = "50" TextColor="Black" Text = "Start testing" HorizontalOptions = "Center" Clicked = "GoToTest"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

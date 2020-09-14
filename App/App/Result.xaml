@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App.Result">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name ="ResultLabel_1" LineBreakMode="WordWrap" HorizontalTextAlignment="Center" FontSize = "30" TextColor = "Black" Text = "Result" />
+            <Label x:Name ="ResultLabel_2" LineBreakMode="WordWrap" HorizontalTextAlignment="Center" FontSize = "30" TextColor = "Black" Text = "Result" />
+            <Button x:Name="BackStartPage" FontSize = "20" Clicked="GoBack" WidthRequest = "200" Margin = "0, 300, 0, 0"
+                    HeightRequest = "100" TextColor="Black" Text = "Go through again" HorizontalOptions = "Center" IsEnabled = "True"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
